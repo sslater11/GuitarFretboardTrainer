@@ -1,3 +1,4 @@
+// © Copyright 2022, Simon Slater
 package com.simonslater.guitarfretboardtrainer;
 
 import androidx.appcompat.app.AppCompatActivity;

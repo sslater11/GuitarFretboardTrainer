@@ -1,3 +1,5 @@
+// © Copyright 2022, Simon Slater
+
 package com.simonslater.guitarfretboardtrainer;
 
 import java.io.Serializable;
