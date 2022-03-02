@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">GuitarFretboardTrainer</string>
+    <string name="heading_select_guitar_string">Strings to learn</string>
+    <string name="heading_select_fret_numbers">Frets to practice</string>
+    <string name="heading_select_question_mode">Select what it should ask us.</string>
+    <string name="chk_guitar_string_e">E</string>
+    <string name="chk_guitar_string_a">A</string>
+    <string name="chk_guitar_string_d">D</string>
+    <string name="chk_guitar_string_g">G</string>
+    <string name="chk_guitar_string_b">B</string>
+
+    <string name="chk_frets_one_four">Frets 1-4</string>
+    <string name="chk_frets_five_eight">Frets 5-8</string>
+    <string name="chk_frets_nine_twelve">Frets 9-12</string>
+    <string name="chk_frets_thirteen_sixteen">Frets 13-16</string>
+    <string name="chk_frets_seventeen_twenty">Frets 17-20</string>
+
+    <string name="radio_guitar_string">String</string>
+    <string name="radio_fret">Fret</string>
+    <string name="radio_note">Note</string>
+
+    <string name="txt_example_heading">Example</string>
+    <string name="txt_guitar_string_heading">String</string>
+    <string name="txt_fret_heading">Fret</string>
+    <string name="txt_note_heading">Note</string>
+    <string name="txt_guitar_string">E</string>
+    <string name="txt_fret">5</string>
+    <string name="txt_note">A</string>
+    <string name="txt_remaining_notes">Remaining notes:\ </string>
+    <string name="btn_hints">Hint</string>
+    <string name="btn_wrong_ansewr">I didn\'t\nknow it</string>
+    <string name="btn_right_ansewr">I got\nit right</string>
+    <string name="btn_show_ansewr">Show\nAnswer</string>
+
+    <string name="btn_start_studying">Start</string>
+
+
+    <string name="txt_stats">You got total_answered_correctly/total_answered correct!"</string>
+    <string name="txt_stats_percent">You were percent% accurate.</string>
+    <string name="btn_main_menu">Main Menu</string>
+    <string name="btn_leadboots">Check out the awesome band Leadboots :)</string>
+</resources>
