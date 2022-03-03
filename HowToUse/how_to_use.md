@@ -17,12 +17,15 @@ Answer all the questions by picking the note it asks, stare at the fretboard and
 I answer each question by saying out loud "E 2 is F sharp".
 Repeat this until you get 100% correct.
 I seem to need to practice it two to three times.
+
 ![how_to_1.jpg](how_to_1.jpg) ![how_to_2.jpg](how_to_2.jpg)
 
 #### 2.
 Now go back to the main menu and choose "Frets" and press Start.
 To answer, I say out loud "G on E string is 3" whilst staring at the fretboard and picking the note.
+
 ![how_to_3.jpg](how_to_3.jpg) ![how_to_4.jpg](how_to_4.jpg)
+
 Well done! You've learnt the notes on the first 4 frets.
 
 
@@ -33,12 +36,14 @@ Repeat the steps above to learn the next 4 frets.
 Untick Frets 1-4 and tick Frets 5-8
 Choose "Notes"
 Answer all the questions.
+
 ![how_to_5.jpg](how_to_5.jpg) ![how_to_6.jpg](how_to_6.jpg)
 
 #### 2.
 Change to "Frets".
 Answer all the questions.
 I say out loud "A sharp on E string is 6" whilst staring at the fretboard and picking the note.
+
 ![how_to_7.jpg](how_to_7.jpg) ![how_to_8.jpg](how_to_8.jpg)
 
 
@@ -63,10 +68,12 @@ Phew, that was a lot of learning!
 Tick Frets 1-4, Frets 5-8 and Frets 9-12.
 Select Notes.
 Answer all the questions.
+
 ![how_to_13.jpg](how_to_13.jpg) ![how_to_14.jpg](how_to_14.jpg)
 
 Select Frets
 Answer all the questions.
+
 ![how_to_15.jpg](how_to_15.jpg) ![how_to_16.jpg](how_to_16.jpg)
 
 ## You've done it! String learnt!
