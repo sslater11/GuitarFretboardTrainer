@@ -18,5 +18,5 @@ Thanks to Yellow Design Studio for the font - Gist Rough, used in the F-Droid ba
 
 # License
 ```
-GNU version 2
+GNU GPL version 2 only.
 ```
