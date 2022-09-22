@@ -1,0 +1,11 @@
+A very simple way to learn all the notes on the guitar fretboard by being quizzed.
+
+It's easy to add to your daily guitar practice.
+
+Pick the string you want to learn, which frets you want to learn the notes for and go for it!
+
+You can practice finding a note on a string.
+e.g. Find G# on the E string. The answer is Fret 4.
+
+You can practice answering what note is at a certain fret.
+e.g. What note is on the E string at Fret 5?
