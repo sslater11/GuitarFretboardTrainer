@@ -15,17 +15,12 @@ public class LearnOrReviseActivity extends AppCompatActivity {
     }
 
     public void beginnerMode( View v ) {
-        //Flashcards deck = new Flashcards( guitar_strings, fret_numbers, question_mode, repititions );
-        //Intent study_mode = new Intent( this, StudyModeActivity.class );
-        //study_mode.putExtra( "flashcards", deck );
-
-        //startActivity( study_mode );
-        System.out.println("yay");
+        Intent my_intent = new Intent( this, BeginnerStringSelectionActivity.class );
+        startActivity( my_intent );
     }
 
     public void expertMode( View v ) {
-        System.out.println( "woooo" );
-        Intent study_mode = new Intent( this, MainActivity.class );
-        startActivity( study_mode );
+        Intent my_intent = new Intent( this, MainActivity.class );
+        startActivity( my_intent );
     }
 }

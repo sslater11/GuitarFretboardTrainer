@@ -19,6 +19,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".BeginnerStringSelectionActivity"
+            android:exported="true" />
+        <activity
             android:name=".FinishedActivity"
             android:exported="true" />
         <activity

@@ -82,12 +82,12 @@ public class MainActivity extends AppCompatActivity {
 	public void startStudying( View v ) {
 		int[] guitar_strings = getSelectedGuitarStrings();
 		int[] fret_numbers   = getSelectedFretNumbers();
-		int repititions      = getSelectedRepititions();
+		int repetitions      = getSelectedRepititions();
 		int question_mode    = getSelectedQuestionMode();
 
 		if( getSelectedFretNumbers().length > 0 && getSelectedGuitarStrings().length > 0 ) {
 			saveSettings();
-			Flashcards deck = new Flashcards( guitar_strings, fret_numbers, question_mode, repititions );
+			Flashcards deck = new Flashcards( guitar_strings, fret_numbers, question_mode, repetitions );
 			Intent study_mode = new Intent( this, StudyModeActivity.class );
 			study_mode.putExtra( "flashcards", deck );
 
@@ -287,8 +287,8 @@ public class MainActivity extends AppCompatActivity {
 
 	}
 	public int getSelectedRepititions() {
-		int repititions = 3;
-		return repititions;
+		int repetitions = 3;
+		return repetitions;
 	}
 
 	public void updateExample( View v ) {

@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.16018518518518518" />
+        <entry key="app/src/main/res/layout/activity_beginner_string_selection.xml" value="0.2957427536231884" />
         <entry key="app/src/main/res/layout/activity_finished.xml" value="0.20416666666666666" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/activity_learn_or_revise.xml" value="0.24115755627009647" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_study_mode.xml" value="0.22" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>

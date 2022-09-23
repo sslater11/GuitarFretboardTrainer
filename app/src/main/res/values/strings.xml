@@ -41,6 +41,13 @@
     <string name="btn_learn_a_string">Learn A String</string>
     <string name="btn_revise">Practice or Revise</string>
 
+    <string name="txt_learn_all_notes">Learn the notes up to the 12th fret for a string</string>
+    <string name="btn_e_string">E String</string>
+    <string name="btn_a_string">A String</string>
+    <string name="btn_d_string">D String</string>
+    <string name="btn_g_string">G String</string>
+    <string name="btn_b_string">B String</string>
+
     <string name="txt_stats">You got total_answered_correctly/total_answered correct!"</string>
     <string name="txt_stats_percent">You were percent% accurate.</string>
     <string name="btn_main_menu">Main Menu</string>
