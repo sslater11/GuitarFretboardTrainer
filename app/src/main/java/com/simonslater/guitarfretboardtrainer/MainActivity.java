@@ -93,12 +93,6 @@ public class MainActivity extends AppCompatActivity {
 
 			startActivity( study_mode );
 		}
-		if( ((CheckBox)findViewById(R.id.chk_guitar_string_e )).isChecked() ) {
-			Log.d("mydebuginfo", "yes it's been ticked");
-		} else {
-
-			Log.d("mydebuginfo", "nope");
-		}
 	}
 	public void loadSettings() {
 		Properties properties = new Properties();

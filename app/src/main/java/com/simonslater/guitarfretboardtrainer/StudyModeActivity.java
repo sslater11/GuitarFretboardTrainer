@@ -221,7 +221,6 @@ public class StudyModeActivity extends AppCompatActivity {
 			try {
 				Thread.sleep(delay);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			img_answer_feedback.setImageResource(img_last);

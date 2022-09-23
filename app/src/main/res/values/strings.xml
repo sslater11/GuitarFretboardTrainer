@@ -34,6 +34,12 @@
 
     <string name="btn_start_studying">Start</string>
 
+    <string name="txt_beginnner">Beginner</string>
+    <string name="txt_expert">Expert</string>
+    <string name="txt_beginnner_description">Choose this to learn the notes on a guitar string.</string>
+    <string name="txt_expert_descripton">Choose this if you have already learnt the notes on a string or two, and you want to customize your study session. You can practice more than one string at once.</string>
+    <string name="btn_learn_a_string">Learn A String</string>
+    <string name="btn_revise">Practice or Revise</string>
 
     <string name="txt_stats">You got total_answered_correctly/total_answered correct!"</string>
     <string name="txt_stats_percent">You were percent% accurate.</string>
