@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
 		if( getSelectedFretNumbers().length > 0 && getSelectedGuitarStrings().length > 0 ) {
 			saveSettings();
-			Flashcards deck = new Flashcards( guitar_strings, fret_numbers, question_mode, repetitions );
+			Flashcards deck = new Flashcards( guitar_strings, fret_numbers, question_mode, repetitions, true);
 			Intent study_mode = new Intent( this, StudyModeActivity.class );
 			study_mode.putExtra( "flashcards", deck );
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BeginnerStringSelectionActivity">
+    tools:context=".IntermediateSingleStringSelection">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
@@ -17,10 +17,10 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/txt_learn_all_notes"
+            android:id="@+id/txt_learn_all_notes2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/txt_learn_all_notes"
+            android:text="@string/txt_review_a_single_string"
             android:textAlignment="center"
             android:textSize="34sp"
             android:textStyle="bold"
@@ -29,71 +29,58 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/btn_e_string"
+            android:id="@+id/btn_e_string2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:onClick="studyGuitarStringE"
+            android:onClick="StudySingleGuitarStringE"
             android:text="@string/btn_e_string"
             android:textSize="34sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_learn_all_notes" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_learn_all_notes2" />
 
         <Button
-            android:id="@+id/btn_a_string"
+            android:id="@+id/btn_a_string2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="studyGuitarStringA"
+            android:onClick="StudySingleGuitarStringA"
             android:text="@string/btn_a_string"
             android:textSize="34sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_e_string" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_e_string2" />
 
         <Button
-            android:id="@+id/btn_d_string"
+            android:id="@+id/btn_d_string2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="studyGuitarStringD"
+            android:onClick="StudySingleGuitarStringD"
             android:text="@string/btn_d_string"
             android:textSize="34sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_a_string" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_a_string2" />
 
         <Button
-            android:id="@+id/btn_g_string"
+            android:id="@+id/btn_g_string2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="studyGuitarStringG"
+            android:onClick="StudySingleGuitarStringG"
             android:text="@string/btn_g_string"
             android:textSize="34sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_d_string" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_d_string2" />
 
         <Button
-            android:id="@+id/btn_b_string"
+            android:id="@+id/btn_b_string2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="studyGuitarStringB"
+            android:onClick="StudySingleGuitarStringB"
             android:text="@string/btn_b_string"
             android:textSize="34sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_g_string" />
-
-        <TextView
-            android:id="@+id/txt_how_to"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="@string/txt_how_to_practie"
-            android:textAlignment="center"
-            android:textSize="24sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_b_string" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_g_string2" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

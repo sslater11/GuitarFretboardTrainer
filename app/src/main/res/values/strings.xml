@@ -35,18 +35,35 @@
     <string name="btn_start_studying">Start</string>
 
     <string name="txt_beginnner">Beginner</string>
+    <string name="txt_intermediate">Intermediate</string>
     <string name="txt_expert">Expert</string>
     <string name="txt_beginnner_description">Choose this to learn the notes on a guitar string.</string>
+    <string name="txt_intermediate_description">Choose this to review the notes on a single guitar string.</string>
     <string name="txt_expert_descripton">Choose this if you have already learnt the notes on a string or two, and you want to customize your study session. You can practice more than one string at once.</string>
     <string name="btn_learn_a_string">Learn A String</string>
+    <string name="btn_review_a_string">Review A Single String</string>
     <string name="btn_revise">Practice or Revise</string>
 
     <string name="txt_learn_all_notes">Learn the notes up to the 12th fret for a string</string>
+    <string name="txt_how_to_practie">Pick up your guitar and put your phone in an easy to reach place.\n\nAnswer every question by picking each note and saying the answer out loud.</string>
+    <string name="txt_review_a_single_string">Review a single string.\nFrets 1-12.</string>
     <string name="btn_e_string">E String</string>
     <string name="btn_a_string">A String</string>
     <string name="btn_d_string">D String</string>
     <string name="btn_g_string">G String</string>
     <string name="btn_b_string">B String</string>
+
+
+    <string name="txt_learn_frets">Let\'s learn frets</string>
+    <string name="txt_guess_note">Guess the note.</string>
+    <string name="txt_guess_fret_number">Guess the fret number.</string>
+    <string name="txt_beginner_explanation_start">We will first play the 4 notes in order</string>
+    <string name="txt_beginner_explanation_end">, so we can get them into our heads.\nThen we will be quizzed randomly.</string>
+    <string name="txt_study_all_notes">Well Done!\nNow Let\'s practice all the notes on the string!</string>
+    <string name="txt_last_stage">Well Done You!\nLAST ROUND!\nYOU CAN DO IT!</string>
+    <string name="btn_lets_go">Let\'s go!</string>
+    <string name="txt_chromatic_scale">Before we start, it is essential that we learn the <b>Chromatic Scale</b>. This is the scale of all the musical notes, and all musicians should know it.\n\nThe Chromatic Scale is:\n<b>A, A#, B, C, C#, D,\nD#, E, F, F#, G, G#</b>\n\nAll notes have a Sharp, except for <b><i>B</i></b> and <b><i>E</i></b>.\nThere is no <b><i>B</i></b> or <b><i>E</i></b> Sharp.\n\nWe can remember this by saying:\n\"There <b><i>BE</i></b> no sharps.\"</string>
+    <string name="txt_chromatic_scale_short">The Chromatic scale is:\n<b>A, A#, B, C, C#, D, D#, E, F, F#, G, G#</b>\n\nThere is no <b><i>B</i></b> or <b><i>E</i></b> Sharp.\nRemember this by saying:\n\"There <b><i>BE</i></b> no sharps.\"</string>
 
     <string name="txt_stats">You got total_answered_correctly/total_answered correct!"</string>
     <string name="txt_stats_percent">You were percent% accurate.</string>

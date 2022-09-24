@@ -22,13 +22,15 @@ public class Flashcards implements Serializable {
 	private int total_cards_answered_correctly = 0;
 	private int question_mode;
 	private int num_of_repetitions;
+	private int[] fret_numbers;
 	ArrayList<Card> cards = new ArrayList<Card>();
 
-	Flashcards( int[] guitar_strings, int[] fret_numbers, int question_mode, int num_of_repetitions ) {
+	Flashcards( int[] guitar_strings, int[] fret_numbers, int question_mode, int num_of_repetitions, boolean is_randomized ) {
 		// Make an array that contains every note on the fretboard that we have added.
 		// Repeat adding all those notes for the same string x times.
 		this.question_mode = question_mode;
 		this.num_of_repetitions = num_of_repetitions;
+		this.fret_numbers = fret_numbers;
 		for( int i = 0; i < num_of_repetitions; i++ ) {
 			for( int gs : guitar_strings ) {
 				for( int fn : fret_numbers ) {
@@ -38,7 +40,9 @@ public class Flashcards implements Serializable {
 			}
 		}
 
-		Collections.shuffle( cards );
+		if( is_randomized ) {
+			Collections.shuffle( cards );
+		}
 	}
 
 	public boolean hasNext() {
@@ -50,6 +54,9 @@ public class Flashcards implements Serializable {
 		}
 	}
 
+	public int[] getAllFretNumbers() {
+		return fret_numbers;
+	}
 	public int getQuestionMode() {
 		return question_mode;
 	}
@@ -65,6 +72,14 @@ public class Flashcards implements Serializable {
 		return total_cards_answered_correctly;
 	}
 
+	public void setTotalCardsAnswered( int num ) {
+		total_cards_answered = num;
+	}
+
+	public void setTotalCardsAnsweredCorrectly( int num ) {
+		total_cards_answered_correctly = num;
+	}
+
 	public int size() {
 		return cards.size();
 	}
@@ -75,25 +90,30 @@ public class Flashcards implements Serializable {
 		cards.remove(0);
 	}
 
-	public void answeredIncorrectly() {
+	public void answeredIncorrectly( boolean is_shuffled ) {
 		total_cards_answered++;
 
-		// We need to now remove all instances of this card, then add it again by the amount of repetitions
-		// so the user can practice this card more.
-        for( int i = 1; i < cards.size(); i++ ) {
-        	if( cards.get(i).isSame( cards.get(0) ) ) {
-        		cards.remove( i );
-        		i--;
+		if( is_shuffled ) {
+			// We need to now remove all instances of this card, then add it again by the amount of repetitions
+			// so the user can practice this card more.
+			for (int i = 1; i < cards.size(); i++) {
+				if (cards.get(i).isSame(cards.get(0))) {
+					cards.remove(i);
+					i--;
+				}
 			}
-		}
 
-        for( int i = 1; i < num_of_repetitions; i++ ) {
-        	int guitar_string =  cards.get(0).getGuitarStringIndex();
-			int fret_number   =  cards.get(0).getFretNumber();
-			cards.add( new Card( guitar_string, fret_number ) );
-		}
+			for (int i = 1; i < num_of_repetitions; i++) {
+				int guitar_string = cards.get(0).getGuitarStringIndex();
+				int fret_number = cards.get(0).getFretNumber();
+				cards.add(new Card(guitar_string, fret_number));
+			}
 
-		shuffle();
+			shuffle();
+		} else {
+			// Just remove the card and move on to the next.
+			cards.remove( 0 );
+		}
 	}
 
 	public void shuffle() {

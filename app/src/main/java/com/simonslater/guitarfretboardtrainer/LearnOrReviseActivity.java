@@ -19,6 +19,11 @@ public class LearnOrReviseActivity extends AppCompatActivity {
         startActivity( my_intent );
     }
 
+    public void intermediateMode( View v ) {
+        Intent my_intent = new Intent( this, IntermediateSingleStringSelection.class );
+        startActivity( my_intent );
+    }
+
     public void expertMode( View v ) {
         Intent my_intent = new Intent( this, MainActivity.class );
         startActivity( my_intent );

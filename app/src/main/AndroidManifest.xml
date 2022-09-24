@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GuitarFretboardTrainer">
         <activity
+            android:name=".ChromaticScaleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntermediateSingleStringSelection"
+            android:exported="false" />
+        <activity
+            android:name=".BeginnerNextStepActivity"
+            android:exported="false" />
+        <activity
             android:name=".LearnOrReviseActivity"
             android:exported="true">
             <intent-filter>
@@ -20,17 +29,16 @@
         </activity>
         <activity
             android:name=".BeginnerStringSelectionActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".FinishedActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".StudyModeActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>
