@@ -20,3 +20,10 @@ Thanks to Yellow Design Studio for the font - Gist Rough, used in the F-Droid ba
 ```
 GNU GPL version 2 only.
 ```
+
+# Where to get it
+
+Currently only on F-Droid :).
+
+<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" height="75">
+![Latest Release](https://img.shields.io/f-droid/v/com.simonslater.guitarfretboardtrainer.svg?logo=F-Droid)
