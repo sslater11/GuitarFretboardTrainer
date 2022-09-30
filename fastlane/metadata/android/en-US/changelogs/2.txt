@@ -1,0 +1,2 @@
+* Created an easier way for the user to learn and practice.
+* New beginner, intermediate, and expert modes for better control of your study session.

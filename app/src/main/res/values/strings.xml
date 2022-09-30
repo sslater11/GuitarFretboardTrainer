@@ -64,6 +64,7 @@
     <string name="btn_lets_go">Let\'s go!</string>
     <string name="txt_chromatic_scale">Before we start, it is essential that we learn the <b>Chromatic Scale</b>. This is the scale of all the musical notes, and all musicians should know it.\n\nThe Chromatic Scale is:\n<b>A, A#, B, C, C#, D,\nD#, E, F, F#, G, G#</b>\n\nAll notes have a Sharp, except for <b><i>B</i></b> and <b><i>E</i></b>.\nThere is no <b><i>B</i></b> or <b><i>E</i></b> Sharp.\n\nWe can remember this by saying:\n\"There <b><i>BE</i></b> no sharps.\"</string>
     <string name="txt_chromatic_scale_short">The Chromatic scale is:\n<b>A, A#, B, C, C#, D, D#, E, F, F#, G, G#</b>\n\nThere is no <b><i>B</i></b> or <b><i>E</i></b> Sharp.\nRemember this by saying:\n\"There <b><i>BE</i></b> no sharps.\"</string>
+    <string name="txt_chromatic_scale_title">Chromatic Scale</string>
 
     <string name="txt_stats">You got total_answered_correctly/total_answered correct!"</string>
     <string name="txt_stats_percent">You were percent% accurate.</string>
